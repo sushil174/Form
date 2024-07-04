@@ -1,0 +1,120 @@
+@font-face {
+  font-family: norse;
+  src: url(res/Norse-Bold.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+}
+.left {
+  height: 100vh;
+  background-color: aqua;
+  background-image: url("res/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.logo {
+  background-color: rgb(36, 37, 38, 0.5) ;
+  font-size: 100px;
+  font-family: norse;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+.logo img{
+    height: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main{
+  background-color: rgb(255, 251, 251);
+
+}
+.header {
+  padding-left: 50px;
+  padding-right: 200px;
+  margin-top: 200px;
+  font-size: 25px;
+}
+
+.inputs{
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 300px;
+  background-color: rgb(255, 255, 255);
+  box-shadow:  5px 5px 5px rgb(208, 210, 210);
+
+}
+
+.footer {
+  padding-left: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow:  5px 5px 5px rgb(197, 198, 198);
+  background-color: #596D48;
+  color: white;
+  padding: 15px 50px 15px 50px;
+  border: 1px;
+  font-weight: bold;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #596D48;
+}
+
+.inputs {
+  display: flex;
+  gap: 50px;
+}
+
+input, label{display: block;}
+
+input {
+  font-size: 14px;
+  margin-bottom: 20px;
+  width: 250px;
+  height: 1.8em;
+  border: 1.5px solid #E5E7EB;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border: 1.5px solid red;
+}
+
+.inputs input:focus {
+  border: 1.5px solid blue;
+  box-shadow:  5px 5px 5px rgb(208, 210, 210);
+}
+
+label {
+  font-size: 15px;
+}
+
+ul{
+  list-style: none;
+}
+
